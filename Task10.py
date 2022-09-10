@@ -17,7 +17,7 @@ assert 'selenide.org' in drv.find_element('xpath', '//*[@id="islrg"]/div[1]/div[
 elm = drv.find_element('xpath', '//*[@id="yDmH0d"]/div[2]/c-wiz/div[1]/div/div[1]/div[1]/div/div/a[1]')
 elm.click()
 assert 'selenide.org' in drv.find_element('xpath', '//*[@id="rso"]/div[1]/div/div/div/div/div/div/div[1]/a/div/cite').text
-
+drv.close()
 
 
 
